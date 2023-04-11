@@ -1,0 +1,123 @@
+@media only screen and (min-width: 320px) { 
+    /* la regle s'applique pour une taille d'ecran comprise entre 320px - 767px */
+    #header {
+        background-color: rgb(255, 4, 4);
+        position:relative;
+        z-index:2;
+        top:0;  /* on le colle en haut*/
+        width:100%;
+        height:50px;   /* Hauteur */
+     }
+    
+    #main {
+        background-color: rgb(85, 62, 255);
+        position:relative;
+        z-index:1;
+        width:100%;
+        height:800px;   /* Hauteur */
+     }
+    
+    #footer {
+        background-color: aquamarine;
+        position:relative;
+        z-index:2;
+        width:100%;
+        height:50px;   /* Hauteur du pied de page */
+     }
+}
+
+
+
+
+
+@media only screen and (min-width: 768px) { 
+    /* la regle s'applique pour des ecrans aux tailles > 768px */
+    #header {
+        background-color: rgb(255, 4, 4);
+        position:relative;
+        z-index:2;
+        top:0;  /* on le colle en haut*/
+        width:100%;
+        height:75px;   /* Hauteur */
+     }
+    
+    #main {
+        background-color: rgb(85, 62, 255);
+        position:relative;
+        z-index:1;
+        width:100%;
+        height:800px;   /* Hauteur */
+     }
+    
+    #footer {
+        background-color: aquamarine;
+        position:relative;
+        z-index:2;
+        width:100%;
+        height:75px;   /* Hauteur du pied de page */
+     }
+}
+
+
+
+
+
+@media only screen and (min-width: 960px) { 
+    /* la regle s'applique pour des ecrans aux tailles > 960px */
+    #header {
+        background-color: rgb(255, 4, 4);
+        position:fixed;
+        z-index:2;
+        top:0;  /* on le colle en haut*/
+        width:100%;
+        height:100px;   /* Hauteur */
+     }
+    
+    #main {
+        background-color: rgb(85, 62, 255);
+        position:relative;
+        z-index:1;
+        width:100%;
+        height:2000px;   /* Hauteur */
+     }
+    
+    #footer {
+        background-color: aquamarine;
+        position:relative;
+        z-index:2;
+        width:100%;
+        height:100px;   /* Hauteur du pied de page */
+     }
+}
+    
+
+
+
+
+@media only screen and (min-width: 1600px) { 
+    /* la regle s'applique pour des ecrans aux tailles > 1600px */
+    #header {
+        background-color: rgb(255, 4, 4);
+        position:fixed;
+        z-index:2;
+        top:0;  /* on le colle en haut*/
+        width:100%;
+        height:150px;   /* Hauteur */
+     }
+    
+    #main {
+        background-color: rgb(85, 62, 255);
+        position:relative;
+        z-index:1;
+        width:100%;
+        height:2000px;   /* Hauteur */
+     }
+    
+    #footer {
+        background-color: aquamarine;
+        position:relative;
+        z-index:2;
+        width:100%;
+        height:150px;   /* Hauteur du pied de page */
+     }
+}
